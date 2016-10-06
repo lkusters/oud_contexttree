@@ -1,0 +1,2 @@
+In this package we create the FullTree class, which can construct the context tree of predefined depth, corresponding to a given (DNA string) sequence.
+Two trees (e.g. tree1, tree2) can be compared using tree1.distance(tree2).

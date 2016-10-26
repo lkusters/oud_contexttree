@@ -9,12 +9,12 @@ from distutils.core import setup
 
 setup(
     name='contexttree',
-    version='0.1dev',
+    version='0.2dev',
     description='contexttree package',
     author='Lieneke Kusters',
     packages=['contexttree', 'contexttree.test'],
     long_description=open('README.txt').read(),
-    scripts=['bin/acompare.py'],
+    scripts=['bin/parse_seqdistances.py'],
     # modules=['TreeCounts', 'loadsequences'],
     # test_suite='contexttree.module.tests',
 )

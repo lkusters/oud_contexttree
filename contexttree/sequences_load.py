@@ -24,5 +24,6 @@ def seqgenerator(filenames_list):
             for record in SeqIO.parse(handle, 'fastq'):
                 yield str(record.seq)
         else:
-            print("filename extension {0} not recognised".format(checkextension[-2]))
+            print("filename extension {0} not recognised".format(
+                                                      checkextension[-2]))
             continue

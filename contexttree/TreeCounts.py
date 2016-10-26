@@ -5,6 +5,7 @@ Created on Thu Oct  6 10:19:12 2016
 @author: Lieneke Kusters
 """
 
+from __future__ import division
 import numpy as np
 import warnings
 import copy
